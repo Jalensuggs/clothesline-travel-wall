@@ -1,5 +1,7 @@
 # 晾着的旅程 · Clothesline Travel Wall
 
+**GitHub Pages 预览 →** https://jalensuggs.github.io/clothesline-travel-wall/
+
 把旅行照片夹在一根会晃动的绳子上。灵感来自 [rope-gallery](https://github.com/thebuggeddev/rope-gallery)，代码是重新写的，做成了旅行照片墙。
 
 ```bash
