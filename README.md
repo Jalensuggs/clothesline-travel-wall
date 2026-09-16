@@ -31,7 +31,7 @@ npm run dev
 
 `public/photos/` 里的 30 张照片来自 Wikimedia Commons，作者和授权见 [CREDITS.md](CREDITS.md)，页面里照片背面也标注了署名。
 
-换成自己的照片：替换 `public/photos/` 里的同名文件，或者在 `src/data/trips.js` 里改 `photo` 路径；用自己的照片时可以删掉对应的 `credit` 字段。图片加载失败会自动回退到程序画的插画。也可以直接在页面里拖入照片，放在「我的旅行」里。
+换成自己的照片：替换 `public/photos/` 里的同名文件，或者在 `src/data/trips.js` 里改 `photo("文件名")`（不要写成以 `/` 开头的路径，部署到 GitHub Pages 子路径下会找不到）；用自己的照片时可以删掉对应的 `credit` 字段。图片加载失败会自动回退到程序画的插画。也可以直接在页面里拖入照片，放在「我的旅行」里。
 
 ## 目录
 
